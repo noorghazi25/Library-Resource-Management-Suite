@@ -1,8 +1,5 @@
 # Library-Resource-Management-Suite
-Welcome to the Library Resource Management Suite (LRMS) repository! This project is a comprehensive, Object-Oriented software solution designed to streamline and automate library management tasks. Built with SFML (Simple and Fast Multimedia Library).
-
-Library Resource Management Suite 📚
-Welcome to the Library Resource Management Suite (LRMS) repository! This project is a comprehensive, Object-Oriented software solution designed to streamline and automate library management tasks. Built with SFML (Simple and Fast Multimedia Library), LRMS provides an intuitive, user-friendly interface for administrators, librarians, and library members. The suite is designed to improve efficiency, enhance user experience, and offer robust management features for any library environment.
+Welcome to the Library Resource Management Suite (LRMS) 📚 repository! This project is a comprehensive, Object-Oriented software solution designed to streamline and automate library management tasks. Built with SFML (Simple and Fast Multimedia Library).
 
 Key Features
 User Management: Register and manage users with roles for students, staff, and library administrators.
