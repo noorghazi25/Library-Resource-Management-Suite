@@ -41,5 +41,5 @@ Welcome to the **Library Resource Management Suite (LRMS)** repository! This pro
 
 Below is the class diagram for the LRMS project, illustrating the relationships and structures of the core classes:
 
-![Class Diagram](path/to/your/UML.png)  <!-- Replace with actual path -->
+![UML Class Diagram](UML.png)
 
