@@ -36,3 +36,10 @@ Welcome to the **Library Resource Management Suite (LRMS)** repository! This pro
   
 - **TGUI (optional)**: 
   - A GUI library based on SFML that can be integrated for enhanced interface elements and user experience.
+
+## Class Diagram
+
+Below is the class diagram for the LRMS project, illustrating the relationships and structures of the core classes:
+
+![Class Diagram](path/to/your/class-diagram.png)  <!-- Replace with actual path -->
+
