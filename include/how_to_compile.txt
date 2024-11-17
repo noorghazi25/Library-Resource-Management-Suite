@@ -1,0 +1,24 @@
+g++ -c mysystem.cpp -IC:\SFML-Progs\SFML-2.5.1\SFML-2.5.1\include
+g++ -c Button.cpp -IC:\SFML-Progs\SFML-2.5.1\SFML-2.5.1\include
+g++ -c Student.cpp -IC:\SFML-Progs\SFML-2.5.1\SFML-2.5.1\include
+g++ -c Book.cpp -IC:\SFML-Progs\SFML-2.5.1\SFML-2.5.1\include
+
+g++ mysystem.o Button.o Student.o Book.o -o mysystem.exe -LC:\SFML-Progs\SFML-2.5.1\SFML-2.5.1\lib -lsfml-graphics -lsfml-window -lsfml-system -lsfml-audio
+
+./mysystem.exe
+
+
+
+# Compile each source file into an object file
+g++ -c mysystem.cpp -IC:\SFML-Progs\SFML-2.5.1\SFML-2.5.1\include
+g++ -c Button.cpp -IC:\SFML-Progs\SFML-2.5.1\SFML-2.5.1\include
+g++ -c Student.cpp -IC:\SFML-Progs\SFML-2.5.1\SFML-2.5.1\include
+g++ -c Book.cpp -IC:\SFML-Progs\SFML-2.5.1\SFML-2.5.1\include
+g++ -c Article.cpp -IC:\SFML-Progs\SFML-2.5.1\SFML-2.5.1\include
+g++ -c AudioTape.cpp -IC:\SFML-Progs\SFML-2.5.1\SFML-2.5.1\include
+
+# Link all object files into the final executable
+g++ mysystem.o Button.o Student.o Book.o Article.o AudioTape.o -o mysystem.exe -LC:\SFML-Progs\SFML-2.5.1\SFML-2.5.1\lib -lsfml-graphics -lsfml-window -lsfml-system -lsfml-audio
+
+# Run the executable
+./mysystem.exe
